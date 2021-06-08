@@ -27,4 +27,8 @@ public class UserDaoImp implements UserDao {
       return query.getResultList();
    }
 
+   @Override
+   public User getUser(Car car) {
+      return null;
+   }
 }
